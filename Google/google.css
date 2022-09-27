@@ -1,0 +1,139 @@
+
+/* Header */
+
+
+
+.entireheader{
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height: 20px;
+    margin-top: 13px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+#apps {
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+}
+
+#mailing {
+    height: 24px;
+    width: 24px;
+    border-radius: 13px;
+    margin-left: 10px;
+}
+
+#images{
+    margin-left: 10px;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    text-decoration:none;
+    cursor: pointer;
+    height: 24px;
+    width: 42px;
+}
+
+#image:hover{
+    text-decoration: underline;
+}
+
+#gmail{
+    margin-left: 10px;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    text-decoration: none;
+    cursor: pointer;  
+    height: 24px;
+    width: 34px;  
+}
+
+/* Body */
+
+
+.google {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 10px;
+}  
+
+.loupe{
+    height: 17px;
+    width: 17px;
+    color: #9aa0a6;
+    margin: 5px;
+    margin-top: 6.5px;
+    
+}
+
+.bodysize{
+    width: auto;
+    height: 355px;
+}
+
+
+.microsize{
+    height: 16px;
+    width: 12px;
+    margin: 7px;
+}
+
+
+.p1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#googbut{
+    margin-right: 10px;
+
+}
+
+#luck{
+    margin-left: 10px;
+
+}
+
+#marge1{
+    margin-left: 5px;
+}
+
+#marge2{
+    margin-left: 5px;
+}
+
+.search{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border: solid .1px;
+    border-radius: 60px;
+    width: 40%;
+    margin:auto;
+}
+
+.searchbox{
+    border: none;
+    width: 80%;
+}
+
+
+.google img {
+    width: 272px;
+    height: 92px;
+}
+
+
+/* Footer */
